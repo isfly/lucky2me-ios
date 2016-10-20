@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "b6eaf2fb-4c46-4036-a53a-d420f78f13b1++1787",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b6eaf2fb-4c46-4036-a53a-d420f78f13b1++1787" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b6eaf2fb-4c46-4036-a53a-d420f78f13b1++1787" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "01FED09A-079A-4076-8F66-E3507715B8EE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b6eaf2fb-4c46-4036-a53a-d420f78f13b1++1787" : "lucky2me-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Lucky2me",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Lucky2me.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/121.42.149.224\/project",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b6eaf2fb-4c46-4036-a53a-d420f78f13b1++1787"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+//
+//  URLs.pch
+//  lucky2me
+//
+//  Created by 甘文鹏 on 16/1/5.
+//  Copyright © 2016年 甘文鹏. All rights reserved.
+//
+
+#ifndef URLs_pch
+#define URLs_pch
+
+#pragma mark - 业务逻辑相关
+
+#define API_DownloadReport          @"http://bs.ganwenpeng.com/api/data/downloadReport"     // 下载报表
+#define API_MyReport                @"http://bs.ganwenpeng.com/api/data/myReport"           // 我的报表
+#define API_DataExport              @"http://bs.ganwenpeng.com/api/data/export"             // 数据导出接口
+#define API_DataQuery               @"http://bs.ganwenpeng.com/api/data/query"              // 数据查询接口
+#define API_DataParameters          @"http://bs.ganwenpeng.com/api/data/parameters"         // 参量列表
+#define API_DataLast                @"http://bs.ganwenpeng.com/api/data/last"               // 获取最新数据
+
+#pragma mark - 用户相关
+#define API_UserChangePwd           @"http://bs.ganwenpeng.com/api/user/resetPasswd"        // 忘记密码
+#define API_Feedback                @"http://bs.ganwenpeng.com/api/system/feedback"         // 反馈
+#define API_ModifyProfile           @"http://bs.ganwenpeng.com/api/user/updateUser"         // 修改个人资料
+#define API_RegSMS                  @"http://bs.ganwenpeng.com/api/user/regSMS"             // 注册——验证码
+#define API_ResetPasswdSMS          @"http://bs.ganwenpeng.com/api/user/forgetPasswdSMS"    // 忘记密码——验证码
+#define API_Register                @"http://bs.ganwenpeng.com/api/user/register"           // 注册
+#define API_Login                   @"http://bs.ganwenpeng.com/api/user/login"              // 登录
+
+#endif /* URLs_pch */
