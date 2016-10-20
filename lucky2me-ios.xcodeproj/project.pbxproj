@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5985B97849215E3A3807836 /* libPods-lucky2me-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D41753EBA791CF065E0A4F9 /* libPods-lucky2me-ios.a */; };
+		F86AD6AB1DB90787005D236D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD6AA1DB90787005D236D /* main.m */; };
+		F86AD7291DB9086B005D236D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86AD6C01DB9086B005D236D /* Assets.xcassets */; };
+		F86AD72B1DB9086B005D236D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD6C71DB9086B005D236D /* AppDelegate.m */; };
+		F86AD72C1DB9086B005D236D /* LCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD6CB1DB9086B005D236D /* LCNavigationController.m */; };
+		F86AD72D1DB9086B005D236D /* LCTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD6CD1DB9086B005D236D /* LCTabbarController.m */; };
+		F86AD72E1DB9086B005D236D /* LCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD6CF1DB9086B005D236D /* LCTableViewController.m */; };
+		F86AD72F1DB9086B005D236D /* LCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD6D11DB9086B005D236D /* LCViewController.m */; };
+		F86AD7301DB9086B005D236D /* BaseCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD6D41DB9086B005D236D /* BaseCellModel.m */; };
+		F86AD7311DB9086B005D236D /* LCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD6D61DB9086B005D236D /* LCUser.m */; };
+		F86AD7321DB9086B005D236D /* LCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD6D91DB9086B005D236D /* LCTableViewCell.m */; };
+		F86AD7331DB9086B005D236D /* LCTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F86AD6DA1DB9086B005D236D /* LCTableViewCell.xib */; };
+		F86AD7341DB9086B005D236D /* LCUserViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD6DD1DB9086B005D236D /* LCUserViewModel.m */; };
+		F86AD7351DB9086B005D236D /* LCContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD6E11DB9086B005D236D /* LCContactViewController.m */; };
+		F86AD7361DB9086B005D236D /* LCMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD6E71DB9086B005D236D /* LCMessageViewController.m */; };
+		F86AD7371DB9086B005D236D /* LCAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD6ED1DB9086B005D236D /* LCAboutViewController.m */; };
+		F86AD7381DB9086B005D236D /* LCAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F86AD6EE1DB9086B005D236D /* LCAboutViewController.xib */; };
+		F86AD7391DB9086B005D236D /* LCEditHeadIconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD6F01DB9086B005D236D /* LCEditHeadIconViewController.m */; };
+		F86AD73A1DB9086B005D236D /* LCEditHeadIconViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F86AD6F11DB9086B005D236D /* LCEditHeadIconViewController.xib */; };
+		F86AD73B1DB9086B005D236D /* LCFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD6F31DB9086B005D236D /* LCFeedbackViewController.m */; };
+		F86AD73C1DB9086B005D236D /* LCFeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F86AD6F41DB9086B005D236D /* LCFeedbackViewController.xib */; };
+		F86AD73D1DB9086B005D236D /* LCForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD6F61DB9086B005D236D /* LCForgetPasswordViewController.m */; };
+		F86AD73E1DB9086B005D236D /* LCForgetPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F86AD6F71DB9086B005D236D /* LCForgetPasswordViewController.xib */; };
+		F86AD73F1DB9086B005D236D /* LCInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD6F91DB9086B005D236D /* LCInputViewController.m */; };
+		F86AD7401DB9086B005D236D /* LCInputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F86AD6FA1DB9086B005D236D /* LCInputViewController.xib */; };
+		F86AD7411DB9086B005D236D /* LCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD6FC1DB9086B005D236D /* LCLoginViewController.m */; };
+		F86AD7421DB9086B005D236D /* LCLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F86AD6FD1DB9086B005D236D /* LCLoginViewController.xib */; };
+		F86AD7431DB9086B005D236D /* LCMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD6FF1DB9086B005D236D /* LCMineViewController.m */; };
+		F86AD7441DB9086B005D236D /* LCNoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD7011DB9086B005D236D /* LCNoCollectionViewController.m */; };
+		F86AD7451DB9086B005D236D /* LCProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD7031DB9086B005D236D /* LCProfileViewController.m */; };
+		F86AD7461DB9086B005D236D /* LCProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F86AD7041DB9086B005D236D /* LCProfileViewController.xib */; };
+		F86AD7471DB9086B005D236D /* LCRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD7061DB9086B005D236D /* LCRegisterViewController.m */; };
+		F86AD7481DB9086B005D236D /* LCRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F86AD7071DB9086B005D236D /* LCRegisterViewController.xib */; };
+		F86AD7491DB9086B005D236D /* LCSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD7091DB9086B005D236D /* LCSettingViewController.m */; };
+		F86AD74A1DB9086B005D236D /* LCHeadIconBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD70D1DB9086B005D236D /* LCHeadIconBgView.m */; };
+		F86AD74B1DB9086B005D236D /* LCMineTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD70F1DB9086B005D236D /* LCMineTopView.m */; };
+		F86AD74C1DB9086B005D236D /* LCMineTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F86AD7101DB9086B005D236D /* LCMineTopView.xib */; };
+		F86AD74D1DB9086B005D236D /* LCIMService.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD7131DB9086B005D236D /* LCIMService.m */; };
+		F86AD74E1DB9086B005D236D /* LCCommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD7161DB9086B005D236D /* LCCommonTool.m */; };
+		F86AD74F1DB9086B005D236D /* LCConst.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD7191DB9086B005D236D /* LCConst.m */; };
+		F86AD7501DB9086B005D236D /* LCLog.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD71B1DB9086B005D236D /* LCLog.m */; };
+		F86AD7511DB9086B005D236D /* NetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD71D1DB9086B005D236D /* NetworkTool.m */; };
+		F86AD7521DB9086B005D236D /* UIBarButtonItem+BlockSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD7201DB9086B005D236D /* UIBarButtonItem+BlockSupport.m */; };
+		F86AD7531DB9086B005D236D /* WMCustomDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD7251DB9086B005D236D /* WMCustomDatePicker.m */; };
+		F86AD7541DB9086B005D236D /* WMDatepicker_DateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F86AD7271DB9086B005D236D /* WMDatepicker_DateModel.m */; };
+		F86AD7551DB9086B005D236D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F86AD7281DB9086B005D236D /* Info.plist */; };
+		F86AD7581DB90882005D236D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86AD7561DB90882005D236D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A9EF1C634F9AC6246601A3D /* Pods-lucky2me-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lucky2me-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lucky2me-ios/Pods-lucky2me-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		3D41753EBA791CF065E0A4F9 /* libPods-lucky2me-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lucky2me-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1BB1B4C00DE9F956303B7D /* Pods-lucky2me-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lucky2me-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-lucky2me-ios/Pods-lucky2me-ios.release.xcconfig"; sourceTree = "<group>"; };
+		F86AD6A61DB90787005D236D /* lucky2me-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lucky2me-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86AD6AA1DB90787005D236D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F86AD6C01DB9086B005D236D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F86AD6C61DB9086B005D236D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F86AD6C71DB9086B005D236D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F86AD6CA1DB9086B005D236D /* LCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCNavigationController.h; sourceTree = "<group>"; };
+		F86AD6CB1DB9086B005D236D /* LCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCNavigationController.m; sourceTree = "<group>"; };
+		F86AD6CC1DB9086B005D236D /* LCTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCTabbarController.h; sourceTree = "<group>"; };
+		F86AD6CD1DB9086B005D236D /* LCTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTabbarController.m; sourceTree = "<group>"; };
+		F86AD6CE1DB9086B005D236D /* LCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCTableViewController.h; sourceTree = "<group>"; };
+		F86AD6CF1DB9086B005D236D /* LCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTableViewController.m; sourceTree = "<group>"; };
+		F86AD6D01DB9086B005D236D /* LCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCViewController.h; sourceTree = "<group>"; };
+		F86AD6D11DB9086B005D236D /* LCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCViewController.m; sourceTree = "<group>"; };
+		F86AD6D31DB9086B005D236D /* BaseCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCellModel.h; sourceTree = "<group>"; };
+		F86AD6D41DB9086B005D236D /* BaseCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCellModel.m; sourceTree = "<group>"; };
+		F86AD6D51DB9086B005D236D /* LCUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCUser.h; sourceTree = "<group>"; };
+		F86AD6D61DB9086B005D236D /* LCUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCUser.m; sourceTree = "<group>"; };
+		F86AD6D81DB9086B005D236D /* LCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCTableViewCell.h; sourceTree = "<group>"; };
+		F86AD6D91DB9086B005D236D /* LCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTableViewCell.m; sourceTree = "<group>"; };
+		F86AD6DA1DB9086B005D236D /* LCTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCTableViewCell.xib; sourceTree = "<group>"; };
+		F86AD6DC1DB9086B005D236D /* LCUserViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCUserViewModel.h; sourceTree = "<group>"; };
+		F86AD6DD1DB9086B005D236D /* LCUserViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCUserViewModel.m; sourceTree = "<group>"; };
+		F86AD6E01DB9086B005D236D /* LCContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCContactViewController.h; sourceTree = "<group>"; };
+		F86AD6E11DB9086B005D236D /* LCContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCContactViewController.m; sourceTree = "<group>"; };
+		F86AD6E61DB9086B005D236D /* LCMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCMessageViewController.h; sourceTree = "<group>"; };
+		F86AD6E71DB9086B005D236D /* LCMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCMessageViewController.m; sourceTree = "<group>"; };
+		F86AD6EC1DB9086B005D236D /* LCAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCAboutViewController.h; sourceTree = "<group>"; };
+		F86AD6ED1DB9086B005D236D /* LCAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCAboutViewController.m; sourceTree = "<group>"; };
+		F86AD6EE1DB9086B005D236D /* LCAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCAboutViewController.xib; sourceTree = "<group>"; };
+		F86AD6EF1DB9086B005D236D /* LCEditHeadIconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEditHeadIconViewController.h; sourceTree = "<group>"; };
+		F86AD6F01DB9086B005D236D /* LCEditHeadIconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEditHeadIconViewController.m; sourceTree = "<group>"; };
+		F86AD6F11DB9086B005D236D /* LCEditHeadIconViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCEditHeadIconViewController.xib; sourceTree = "<group>"; };
+		F86AD6F21DB9086B005D236D /* LCFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCFeedbackViewController.h; sourceTree = "<group>"; };
+		F86AD6F31DB9086B005D236D /* LCFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCFeedbackViewController.m; sourceTree = "<group>"; };
+		F86AD6F41DB9086B005D236D /* LCFeedbackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCFeedbackViewController.xib; sourceTree = "<group>"; };
+		F86AD6F51DB9086B005D236D /* LCForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCForgetPasswordViewController.h; sourceTree = "<group>"; };
+		F86AD6F61DB9086B005D236D /* LCForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCForgetPasswordViewController.m; sourceTree = "<group>"; };
+		F86AD6F71DB9086B005D236D /* LCForgetPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCForgetPasswordViewController.xib; sourceTree = "<group>"; };
+		F86AD6F81DB9086B005D236D /* LCInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCInputViewController.h; sourceTree = "<group>"; };
+		F86AD6F91DB9086B005D236D /* LCInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCInputViewController.m; sourceTree = "<group>"; };
+		F86AD6FA1DB9086B005D236D /* LCInputViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCInputViewController.xib; sourceTree = "<group>"; };
+		F86AD6FB1DB9086B005D236D /* LCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLoginViewController.h; sourceTree = "<group>"; };
+		F86AD6FC1DB9086B005D236D /* LCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLoginViewController.m; sourceTree = "<group>"; };
+		F86AD6FD1DB9086B005D236D /* LCLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCLoginViewController.xib; sourceTree = "<group>"; };
+		F86AD6FE1DB9086B005D236D /* LCMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCMineViewController.h; sourceTree = "<group>"; };
+		F86AD6FF1DB9086B005D236D /* LCMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCMineViewController.m; sourceTree = "<group>"; };
+		F86AD7001DB9086B005D236D /* LCNoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCNoCollectionViewController.h; sourceTree = "<group>"; };
+		F86AD7011DB9086B005D236D /* LCNoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCNoCollectionViewController.m; sourceTree = "<group>"; };
+		F86AD7021DB9086B005D236D /* LCProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCProfileViewController.h; sourceTree = "<group>"; };
+		F86AD7031DB9086B005D236D /* LCProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCProfileViewController.m; sourceTree = "<group>"; };
+		F86AD7041DB9086B005D236D /* LCProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCProfileViewController.xib; sourceTree = "<group>"; };
+		F86AD7051DB9086B005D236D /* LCRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCRegisterViewController.h; sourceTree = "<group>"; };
+		F86AD7061DB9086B005D236D /* LCRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCRegisterViewController.m; sourceTree = "<group>"; };
+		F86AD7071DB9086B005D236D /* LCRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCRegisterViewController.xib; sourceTree = "<group>"; };
+		F86AD7081DB9086B005D236D /* LCSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCSettingViewController.h; sourceTree = "<group>"; };
+		F86AD7091DB9086B005D236D /* LCSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCSettingViewController.m; sourceTree = "<group>"; };
+		F86AD70C1DB9086B005D236D /* LCHeadIconBgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCHeadIconBgView.h; sourceTree = "<group>"; };
+		F86AD70D1DB9086B005D236D /* LCHeadIconBgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCHeadIconBgView.m; sourceTree = "<group>"; };
+		F86AD70E1DB9086B005D236D /* LCMineTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCMineTopView.h; sourceTree = "<group>"; };
+		F86AD70F1DB9086B005D236D /* LCMineTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCMineTopView.m; sourceTree = "<group>"; };
+		F86AD7101DB9086B005D236D /* LCMineTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCMineTopView.xib; sourceTree = "<group>"; };
+		F86AD7121DB9086B005D236D /* LCIMService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCIMService.h; sourceTree = "<group>"; };
+		F86AD7131DB9086B005D236D /* LCIMService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCIMService.m; sourceTree = "<group>"; };
+		F86AD7151DB9086B005D236D /* LCCommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCommonTool.h; sourceTree = "<group>"; };
+		F86AD7161DB9086B005D236D /* LCCommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCommonTool.m; sourceTree = "<group>"; };
+		F86AD7171DB9086B005D236D /* LCConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCConfig.h; sourceTree = "<group>"; };
+		F86AD7181DB9086B005D236D /* LCConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCConst.h; sourceTree = "<group>"; };
+		F86AD7191DB9086B005D236D /* LCConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCConst.m; sourceTree = "<group>"; };
+		F86AD71A1DB9086B005D236D /* LCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLog.h; sourceTree = "<group>"; };
+		F86AD71B1DB9086B005D236D /* LCLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLog.m; sourceTree = "<group>"; };
+		F86AD71C1DB9086B005D236D /* NetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTool.h; sourceTree = "<group>"; };
+		F86AD71D1DB9086B005D236D /* NetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTool.m; sourceTree = "<group>"; };
+		F86AD71E1DB9086B005D236D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F86AD71F1DB9086B005D236D /* UIBarButtonItem+BlockSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BlockSupport.h"; sourceTree = "<group>"; };
+		F86AD7201DB9086B005D236D /* UIBarButtonItem+BlockSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BlockSupport.m"; sourceTree = "<group>"; };
+		F86AD7211DB9086B005D236D /* URLs.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLs.pch; sourceTree = "<group>"; };
+		F86AD7241DB9086B005D236D /* WMCustomDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCustomDatePicker.h; sourceTree = "<group>"; };
+		F86AD7251DB9086B005D236D /* WMCustomDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCustomDatePicker.m; sourceTree = "<group>"; };
+		F86AD7261DB9086B005D236D /* WMDatepicker_DateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDatepicker_DateModel.h; sourceTree = "<group>"; };
+		F86AD7271DB9086B005D236D /* WMDatepicker_DateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDatepicker_DateModel.m; sourceTree = "<group>"; };
+		F86AD7281DB9086B005D236D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F86AD7571DB90882005D236D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F86AD6A31DB90787005D236D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5985B97849215E3A3807836 /* libPods-lucky2me-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08F6B5800CEC794481DB4CFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A9EF1C634F9AC6246601A3D /* Pods-lucky2me-ios.debug.xcconfig */,
+				AE1BB1B4C00DE9F956303B7D /* Pods-lucky2me-ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		544D8D0DD037B7E706CA366A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D41753EBA791CF065E0A4F9 /* libPods-lucky2me-ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F86AD69D1DB90787005D236D = {
+			isa = PBXGroup;
+			children = (
+				F86AD6A81DB90787005D236D /* lucky2me-ios */,
+				F86AD6A71DB90787005D236D /* Products */,
+				08F6B5800CEC794481DB4CFF /* Pods */,
+				544D8D0DD037B7E706CA366A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F86AD6A71DB90787005D236D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F86AD6A61DB90787005D236D /* lucky2me-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F86AD6A81DB90787005D236D /* lucky2me-ios */ = {
+			isa = PBXGroup;
+			children = (
+				F86AD6C41DB9086B005D236D /* Classes */,
+				F86AD6A91DB90787005D236D /* Supporting Files */,
+			);
+			path = "lucky2me-ios";
+			sourceTree = "<group>";
+		};
+		F86AD6A91DB90787005D236D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F86AD7281DB9086B005D236D /* Info.plist */,
+				F86AD6C01DB9086B005D236D /* Assets.xcassets */,
+				F86AD7561DB90882005D236D /* LaunchScreen.storyboard */,
+				F86AD6AA1DB90787005D236D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F86AD6C41DB9086B005D236D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F86AD6C51DB9086B005D236D /* AppDelegate */,
+				F86AD6C81DB9086B005D236D /* Common */,
+				F86AD6DE1DB9086B005D236D /* Contact */,
+				F86AD6E41DB9086B005D236D /* Message */,
+				F86AD6EA1DB9086B005D236D /* Mine */,
+				F86AD7111DB9086B005D236D /* Service */,
+				F86AD7141DB9086B005D236D /* Utils */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F86AD6C51DB9086B005D236D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F86AD6C61DB9086B005D236D /* AppDelegate.h */,
+				F86AD6C71DB9086B005D236D /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F86AD6C81DB9086B005D236D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F86AD6C91DB9086B005D236D /* Controller */,
+				F86AD6D21DB9086B005D236D /* Model */,
+				F86AD6D71DB9086B005D236D /* View */,
+				F86AD6DB1DB9086B005D236D /* ViewModel */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F86AD6C91DB9086B005D236D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F86AD6CA1DB9086B005D236D /* LCNavigationController.h */,
+				F86AD6CB1DB9086B005D236D /* LCNavigationController.m */,
+				F86AD6CC1DB9086B005D236D /* LCTabbarController.h */,
+				F86AD6CD1DB9086B005D236D /* LCTabbarController.m */,
+				F86AD6CE1DB9086B005D236D /* LCTableViewController.h */,
+				F86AD6CF1DB9086B005D236D /* LCTableViewController.m */,
+				F86AD6D01DB9086B005D236D /* LCViewController.h */,
+				F86AD6D11DB9086B005D236D /* LCViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F86AD6D21DB9086B005D236D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F86AD6D31DB9086B005D236D /* BaseCellModel.h */,
+				F86AD6D41DB9086B005D236D /* BaseCellModel.m */,
+				F86AD6D51DB9086B005D236D /* LCUser.h */,
+				F86AD6D61DB9086B005D236D /* LCUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F86AD6D71DB9086B005D236D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F86AD6D81DB9086B005D236D /* LCTableViewCell.h */,
+				F86AD6D91DB9086B005D236D /* LCTableViewCell.m */,
+				F86AD6DA1DB9086B005D236D /* LCTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F86AD6DB1DB9086B005D236D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F86AD6DC1DB9086B005D236D /* LCUserViewModel.h */,
+				F86AD6DD1DB9086B005D236D /* LCUserViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F86AD6DE1DB9086B005D236D /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				F86AD6DF1DB9086B005D236D /* Controller */,
+				F86AD6E21DB9086B005D236D /* Model */,
+				F86AD6E31DB9086B005D236D /* View */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		F86AD6DF1DB9086B005D236D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F86AD6E01DB9086B005D236D /* LCContactViewController.h */,
+				F86AD6E11DB9086B005D236D /* LCContactViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F86AD6E21DB9086B005D236D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F86AD6E31DB9086B005D236D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F86AD6E41DB9086B005D236D /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				F86AD6E51DB9086B005D236D /* Controller */,
+				F86AD6E81DB9086B005D236D /* Model */,
+				F86AD6E91DB9086B005D236D /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		F86AD6E51DB9086B005D236D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F86AD6E61DB9086B005D236D /* LCMessageViewController.h */,
+				F86AD6E71DB9086B005D236D /* LCMessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F86AD6E81DB9086B005D236D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F86AD6E91DB9086B005D236D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F86AD6EA1DB9086B005D236D /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				F86AD6EB1DB9086B005D236D /* Controller */,
+				F86AD70A1DB9086B005D236D /* Model */,
+				F86AD70B1DB9086B005D236D /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		F86AD6EB1DB9086B005D236D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F86AD6EC1DB9086B005D236D /* LCAboutViewController.h */,
+				F86AD6ED1DB9086B005D236D /* LCAboutViewController.m */,
+				F86AD6EE1DB9086B005D236D /* LCAboutViewController.xib */,
+				F86AD6EF1DB9086B005D236D /* LCEditHeadIconViewController.h */,
+				F86AD6F01DB9086B005D236D /* LCEditHeadIconViewController.m */,
+				F86AD6F11DB9086B005D236D /* LCEditHeadIconViewController.xib */,
+				F86AD6F21DB9086B005D236D /* LCFeedbackViewController.h */,
+				F86AD6F31DB9086B005D236D /* LCFeedbackViewController.m */,
+				F86AD6F41DB9086B005D236D /* LCFeedbackViewController.xib */,
+				F86AD6F51DB9086B005D236D /* LCForgetPasswordViewController.h */,
+				F86AD6F61DB9086B005D236D /* LCForgetPasswordViewController.m */,
+				F86AD6F71DB9086B005D236D /* LCForgetPasswordViewController.xib */,
+				F86AD6F81DB9086B005D236D /* LCInputViewController.h */,
+				F86AD6F91DB9086B005D236D /* LCInputViewController.m */,
+				F86AD6FA1DB9086B005D236D /* LCInputViewController.xib */,
+				F86AD6FB1DB9086B005D236D /* LCLoginViewController.h */,
+				F86AD6FC1DB9086B005D236D /* LCLoginViewController.m */,
+				F86AD6FD1DB9086B005D236D /* LCLoginViewController.xib */,
+				F86AD6FE1DB9086B005D236D /* LCMineViewController.h */,
+				F86AD6FF1DB9086B005D236D /* LCMineViewController.m */,
+				F86AD7001DB9086B005D236D /* LCNoCollectionViewController.h */,
+				F86AD7011DB9086B005D236D /* LCNoCollectionViewController.m */,
+				F86AD7021DB9086B005D236D /* LCProfileViewController.h */,
+				F86AD7031DB9086B005D236D /* LCProfileViewController.m */,
+				F86AD7041DB9086B005D236D /* LCProfileViewController.xib */,
+				F86AD7051DB9086B005D236D /* LCRegisterViewController.h */,
+				F86AD7061DB9086B005D236D /* LCRegisterViewController.m */,
+				F86AD7071DB9086B005D236D /* LCRegisterViewController.xib */,
+				F86AD7081DB9086B005D236D /* LCSettingViewController.h */,
+				F86AD7091DB9086B005D236D /* LCSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F86AD70A1DB9086B005D236D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F86AD70B1DB9086B005D236D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F86AD70C1DB9086B005D236D /* LCHeadIconBgView.h */,
+				F86AD70D1DB9086B005D236D /* LCHeadIconBgView.m */,
+				F86AD70E1DB9086B005D236D /* LCMineTopView.h */,
+				F86AD70F1DB9086B005D236D /* LCMineTopView.m */,
+				F86AD7101DB9086B005D236D /* LCMineTopView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F86AD7111DB9086B005D236D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F86AD7121DB9086B005D236D /* LCIMService.h */,
+				F86AD7131DB9086B005D236D /* LCIMService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F86AD7141DB9086B005D236D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F86AD7151DB9086B005D236D /* LCCommonTool.h */,
+				F86AD7161DB9086B005D236D /* LCCommonTool.m */,
+				F86AD7171DB9086B005D236D /* LCConfig.h */,
+				F86AD7181DB9086B005D236D /* LCConst.h */,
+				F86AD7191DB9086B005D236D /* LCConst.m */,
+				F86AD71A1DB9086B005D236D /* LCLog.h */,
+				F86AD71B1DB9086B005D236D /* LCLog.m */,
+				F86AD71C1DB9086B005D236D /* NetworkTool.h */,
+				F86AD71D1DB9086B005D236D /* NetworkTool.m */,
+				F86AD71E1DB9086B005D236D /* PrefixHeader.pch */,
+				F86AD71F1DB9086B005D236D /* UIBarButtonItem+BlockSupport.h */,
+				F86AD7201DB9086B005D236D /* UIBarButtonItem+BlockSupport.m */,
+				F86AD7211DB9086B005D236D /* URLs.pch */,
+				F86AD7221DB9086B005D236D /* Vendor */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F86AD7221DB9086B005D236D /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				F86AD7231DB9086B005D236D /* WMCoustomDatepicker */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		F86AD7231DB9086B005D236D /* WMCoustomDatepicker */ = {
+			isa = PBXGroup;
+			children = (
+				F86AD7241DB9086B005D236D /* WMCustomDatePicker.h */,
+				F86AD7251DB9086B005D236D /* WMCustomDatePicker.m */,
+				F86AD7261DB9086B005D236D /* WMDatepicker_DateModel.h */,
+				F86AD7271DB9086B005D236D /* WMDatepicker_DateModel.m */,
+			);
+			path = WMCoustomDatepicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F86AD6A51DB90787005D236D /* lucky2me-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F86AD6BD1DB90787005D236D /* Build configuration list for PBXNativeTarget "lucky2me-ios" */;
+			buildPhases = (
+				739C97B97D4106A9D7589331 /* [CP] Check Pods Manifest.lock */,
+				F86AD6A21DB90787005D236D /* Sources */,
+				F86AD6A31DB90787005D236D /* Frameworks */,
+				F86AD6A41DB90787005D236D /* Resources */,
+				90852D437435B007A73134C3 /* [CP] Embed Pods Frameworks */,
+				B432CE1F05F0213A43A7E485 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lucky2me-ios";
+			productName = "lucky2me-ios";
+			productReference = F86AD6A61DB90787005D236D /* lucky2me-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F86AD69E1DB90787005D236D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = lucky2me.com;
+				TargetAttributes = {
+					F86AD6A51DB90787005D236D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4WWFZEKKG2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F86AD6A11DB90787005D236D /* Build configuration list for PBXProject "lucky2me-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F86AD69D1DB90787005D236D;
+			productRefGroup = F86AD6A71DB90787005D236D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F86AD6A51DB90787005D236D /* lucky2me-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F86AD6A41DB90787005D236D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86AD7401DB9086B005D236D /* LCInputViewController.xib in Resources */,
+				F86AD7331DB9086B005D236D /* LCTableViewCell.xib in Resources */,
+				F86AD7291DB9086B005D236D /* Assets.xcassets in Resources */,
+				F86AD73E1DB9086B005D236D /* LCForgetPasswordViewController.xib in Resources */,
+				F86AD7461DB9086B005D236D /* LCProfileViewController.xib in Resources */,
+				F86AD7421DB9086B005D236D /* LCLoginViewController.xib in Resources */,
+				F86AD73A1DB9086B005D236D /* LCEditHeadIconViewController.xib in Resources */,
+				F86AD7581DB90882005D236D /* LaunchScreen.storyboard in Resources */,
+				F86AD74C1DB9086B005D236D /* LCMineTopView.xib in Resources */,
+				F86AD73C1DB9086B005D236D /* LCFeedbackViewController.xib in Resources */,
+				F86AD7481DB9086B005D236D /* LCRegisterViewController.xib in Resources */,
+				F86AD7381DB9086B005D236D /* LCAboutViewController.xib in Resources */,
+				F86AD7551DB9086B005D236D /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		739C97B97D4106A9D7589331 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90852D437435B007A73134C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lucky2me-ios/Pods-lucky2me-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B432CE1F05F0213A43A7E485 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lucky2me-ios/Pods-lucky2me-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F86AD6A21DB90787005D236D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86AD72E1DB9086B005D236D /* LCTableViewController.m in Sources */,
+				F86AD7321DB9086B005D236D /* LCTableViewCell.m in Sources */,
+				F86AD7311DB9086B005D236D /* LCUser.m in Sources */,
+				F86AD7361DB9086B005D236D /* LCMessageViewController.m in Sources */,
+				F86AD7451DB9086B005D236D /* LCProfileViewController.m in Sources */,
+				F86AD7301DB9086B005D236D /* BaseCellModel.m in Sources */,
+				F86AD74D1DB9086B005D236D /* LCIMService.m in Sources */,
+				F86AD7521DB9086B005D236D /* UIBarButtonItem+BlockSupport.m in Sources */,
+				F86AD72C1DB9086B005D236D /* LCNavigationController.m in Sources */,
+				F86AD7541DB9086B005D236D /* WMDatepicker_DateModel.m in Sources */,
+				F86AD7491DB9086B005D236D /* LCSettingViewController.m in Sources */,
+				F86AD7531DB9086B005D236D /* WMCustomDatePicker.m in Sources */,
+				F86AD7431DB9086B005D236D /* LCMineViewController.m in Sources */,
+				F86AD73D1DB9086B005D236D /* LCForgetPasswordViewController.m in Sources */,
+				F86AD7391DB9086B005D236D /* LCEditHeadIconViewController.m in Sources */,
+				F86AD72B1DB9086B005D236D /* AppDelegate.m in Sources */,
+				F86AD7351DB9086B005D236D /* LCContactViewController.m in Sources */,
+				F86AD74F1DB9086B005D236D /* LCConst.m in Sources */,
+				F86AD7371DB9086B005D236D /* LCAboutViewController.m in Sources */,
+				F86AD74E1DB9086B005D236D /* LCCommonTool.m in Sources */,
+				F86AD7441DB9086B005D236D /* LCNoCollectionViewController.m in Sources */,
+				F86AD7341DB9086B005D236D /* LCUserViewModel.m in Sources */,
+				F86AD72D1DB9086B005D236D /* LCTabbarController.m in Sources */,
+				F86AD7511DB9086B005D236D /* NetworkTool.m in Sources */,
+				F86AD7471DB9086B005D236D /* LCRegisterViewController.m in Sources */,
+				F86AD7411DB9086B005D236D /* LCLoginViewController.m in Sources */,
+				F86AD74B1DB9086B005D236D /* LCMineTopView.m in Sources */,
+				F86AD7501DB9086B005D236D /* LCLog.m in Sources */,
+				F86AD74A1DB9086B005D236D /* LCHeadIconBgView.m in Sources */,
+				F86AD73F1DB9086B005D236D /* LCInputViewController.m in Sources */,
+				F86AD6AB1DB90787005D236D /* main.m in Sources */,
+				F86AD72F1DB9086B005D236D /* LCViewController.m in Sources */,
+				F86AD73B1DB9086B005D236D /* LCFeedbackViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F86AD7561DB90882005D236D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F86AD7571DB90882005D236D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F86AD6BB1DB90787005D236D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F86AD6BC1DB90787005D236D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F86AD6BE1DB90787005D236D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A9EF1C634F9AC6246601A3D /* Pods-lucky2me-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4WWFZEKKG2;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/lucky2me-ios/Classes/Utils/PrefixHeader.pch";
+				INFOPLIST_FILE = "lucky2me-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucky2me.lucky2me-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F86AD6BF1DB90787005D236D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1BB1B4C00DE9F956303B7D /* Pods-lucky2me-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4WWFZEKKG2;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/lucky2me-ios/Classes/Utils/PrefixHeader.pch";
+				INFOPLIST_FILE = "lucky2me-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucky2me.lucky2me-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F86AD6A11DB90787005D236D /* Build configuration list for PBXProject "lucky2me-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F86AD6BB1DB90787005D236D /* Debug */,
+				F86AD6BC1DB90787005D236D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F86AD6BD1DB90787005D236D /* Build configuration list for PBXNativeTarget "lucky2me-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F86AD6BE1DB90787005D236D /* Debug */,
+				F86AD6BF1DB90787005D236D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F86AD69E1DB90787005D236D /* Project object */;
+}

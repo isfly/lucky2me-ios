@@ -17,11 +17,9 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H5W-1E-kNk">
-                    <frame key="frameInset" minY="-64" width="600" height="664"/>
+                <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H5W-1E-kNk">
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xwi-OO-6l9">
-                            <frame key="frameInset" minX="284" minY="624" width="32" height="22.5"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xwi-OO-6l9">
                             <constraints>
                                 <constraint firstAttribute="width" constant="32" id="7Mm-jx-1gl"/>
                                 <constraint firstAttribute="height" constant="22.5" id="Is1-Bm-UO9"/>
@@ -34,8 +32,7 @@
                                 <action selector="cancelClick" destination="-1" eventType="touchUpInside" id="Dag-DI-jga"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1D-jW-VfY">
-                            <frame key="frameInset" minX="244" minY="560" width="112" height="22.5"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1D-jW-VfY">
                             <constraints>
                                 <constraint firstAttribute="height" constant="22.5" id="NLz-Me-18i"/>
                                 <constraint firstAttribute="width" constant="112" id="YXo-bj-dTW"/>
@@ -48,8 +45,7 @@
                                 <action selector="albumClick" destination="-1" eventType="touchUpInside" id="hwz-Pv-7XB"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="73p-c1-l3P">
-                            <frame key="frameInset" minX="284" minY="504" width="32" height="22.5"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="73p-c1-l3P">
                             <constraints>
                                 <constraint firstAttribute="width" constant="32" id="9hA-JV-mjf"/>
                                 <constraint firstAttribute="height" constant="22.5" id="FPx-T8-fc8"/>

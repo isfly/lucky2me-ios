@@ -1,5 +1,5 @@
 platform :ios, '8.0'
-target 'Lucky2me' do
+target ‘lucky2me-ios’ do
     pod 'GWPKit', '~>1.1.8'
     pod 'Masonry', '~> 1.0.0'
     pod 'AFNetworking', '~> 3.1.0'
